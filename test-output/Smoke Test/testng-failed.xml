@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="com.RAC.TestCases.TestProgram">
+        <methods>
+          <include name="initialize"/>
+          <include name="homePage"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RAC.TestCases.TestProgram -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->
